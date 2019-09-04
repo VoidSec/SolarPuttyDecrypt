@@ -16,12 +16,10 @@ I've made this detailed [blog post](https://voidsec.com/) explaining the vulnera
 Searching for someone interested into porting this project to a Metasploit post-exploitation module.
 
 ## Usage:
-```
 By default, when runned without arguments, the tool attempts to dump the local SolarPuTTY's sessions file (%appdata%\SolarWinds\FreeTools\Solar-PuTTY\data.dat).
 
 Otherwise the tool can be pointed to an arbitrary exported sessions file in the following way (use "" for empty password):
-
-SolarPuttyDecrypt.exe C:\Users\test\session.dat P@ssw0rd1
-
-Sessions will be outputted on screen and saved into User's Desktop (%userprofile%\desktop\SolarPutty_sessions_decrypted.txt)
 ```
+SolarPuttyDecrypt.exe C:\Users\test\session.dat P@ssw0rd1
+```
+Sessions will be outputted on screen and saved into User's Desktop (%userprofile%\desktop\SolarPutty_sessions_decrypted.txt)
