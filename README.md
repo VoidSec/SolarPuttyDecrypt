@@ -24,4 +24,4 @@ Sessions will be outputted on screen and saved into User's Desktop (%userprofile
 
 ### Help Needed
 
-Searching for someone interested into porting this project to a Metasploit post-exploitation module.
+Searching for someone interested into helping me adding the decryption routine to the [Metasploit post-exploitation module](solar_putty.rb).
